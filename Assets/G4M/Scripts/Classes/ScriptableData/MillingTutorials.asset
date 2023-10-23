@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0adbe7cdaab2f6345b273d55093a68f3, type: 3}
+  m_Name: MillingTutorials
+  m_EditorClassIdentifier: 
+  Array:
+  - Name: "1 - \u0392\u03B1\u03C3\u03B9\u03BA\u03AC \u03B3\u03B9\u03B1 \u03C4\u03BF\u03BD
+      \u03C0\u03C1\u03BF\u03B3\u03C1\u03B1\u03BC\u03BC\u03B1\u03C4\u03B9\u03C3\u03BC\u03CC"
+    Stage: 0
+    IsExample: 0
+    TutorialPageArray:
+    - PageTitle: "\u0392\u03B1\u03C3\u03B9\u03BA\u03AC \u03B3\u03B9\u03B1 \u03C4\u03BF\u03BD
+        \u03C0\u03C1\u03BF\u03B3\u03C1\u03B1\u03BC\u03BC\u03B1\u03C4\u03B9\u03C3\u03BC\u03CC"
+      PageImage: {fileID: 21300000, guid: 172d410a59a14d94089c8c0b3c63eaf9, type: 3}
+  - Name: "2 - \u0394\u03BF\u03BC\u03AE \u03C0\u03C1\u03BF\u03B3\u03C1\u03AC\u03BC\u03BC\u03B1\u03C4\u03BF\u03C2"
+    Stage: 0
+    IsExample: 0
+    TutorialPageArray:
+    - PageTitle: "\u0394\u03BF\u03BC\u03AE \u03C0\u03C1\u03BF\u03B3\u03C1\u03AC\u03BC\u03BC\u03B1\u03C4\u03BF\u03C2"
+      PageImage: {fileID: 21300000, guid: 33fee8275edf85b4d9597a70ee41dd32, type: 3}
+  - Name: "3 - \u039A\u03B1\u03C1\u03C4\u03B5\u03C3\u03B9\u03B1\u03BD\u03AD\u03C2
+      \u03BA\u03B1\u03B9 \u03A0\u03BF\u03BB\u03B9\u03BA\u03AD\u03C2 \u03A3\u03C5\u03BD\u03C4\u03B5\u03C4\u03B1\u03B3\u03BC\u03AD\u03BD\u03B5\u03C2"
+    Stage: 0
+    IsExample: 0
+    TutorialPageArray:
+    - PageTitle: "\u039A\u03B1\u03C1\u03C4\u03B5\u03C3\u03B9\u03B1\u03BD\u03AD\u03C2
+        \u03BA\u03B1\u03B9 \u03A0\u03BF\u03BB\u03B9\u03BA\u03AD\u03C2 \u03A3\u03C5\u03BD\u03C4\u03B5\u03C4\u03B1\u03B3\u03BC\u03AD\u03BD\u03B5\u03C2"
+      PageImage: {fileID: 21300000, guid: 26e649f8e8853d148a1878dbfa562305, type: 3}
+  - Name: "4 - \u0391\u03C0\u03CC\u03BB\u03C5\u03C4\u03B5\u03C2 \u03BA\u03B1\u03B9
+      \u03A3\u03C7\u03B5\u03C4\u03B9\u03BA\u03AD\u03C2 \u03A3\u03C5\u03BD\u03C4\u03B5\u03C4\u03B1\u03B3\u03BC\u03AD\u03BD\u03B5\u03C2"
+    Stage: 0
+    IsExample: 0
+    TutorialPageArray:
+    - PageTitle: "\u0391\u03C0\u03CC\u03BB\u03C5\u03C4\u03B5\u03C2 \u03BA\u03B1\u03B9
+        \u03A3\u03C7\u03B5\u03C4\u03B9\u03BA\u03AD\u03C2 \u03A3\u03C5\u03BD\u03C4\u03B5\u03C4\u03B1\u03B3\u03BC\u03AD\u03BD\u03B5\u03C2"
+      PageImage: {fileID: 21300000, guid: 8a55622dfccf72a498da075a0c0c94e4, type: 3}
+  - Name: "5 - \u0391\u03C1\u03C7\u03B9\u03BA\u03AD\u03C2 \u03B5\u03BD\u03C4\u03BF\u03BB\u03AD\u03C2"
+    Stage: 0
+    IsExample: 0
+    TutorialPageArray:
+    - PageTitle: "\u0391\u03C1\u03C7\u03B9\u03BA\u03AD\u03C2 \u03B5\u03BD\u03C4\u03BF\u03BB\u03AD\u03C2"
+      PageImage: {fileID: 21300000, guid: e518b0882353a2d40b386af353cb4470, type: 3}
+  - Name: 6 - G00
+    Stage: 1
+    IsExample: 0
+    TutorialPageArray:
+    - PageTitle: G00
+      PageImage: {fileID: 21300000, guid: 05a1b4006a6035147bc05d0e5d5079e8, type: 3}
+  - Name: 7 - G01
+    Stage: 1
+    IsExample: 0
+    TutorialPageArray:
+    - PageTitle: G01
+      PageImage: {fileID: 21300000, guid: 42cbbbacd042eca44aa1469c47a333bf, type: 3}
+  - Name: "8 - \u03A0\u03B1\u03C1\u03AC\u03B4\u03B5\u03B9\u03B3\u03BC\u03B1 G00 G01"
+    Stage: 1
+    IsExample: 1
+    TutorialPageArray:
+    - PageTitle: "\u0395\u03A7 G00 G01"
+      PageImage: {fileID: 21300000, guid: 69a379b4dad66234590fb4eb91550ebc, type: 3}
+  - Name: 9 - G02
+    Stage: 2
+    IsExample: 0
+    TutorialPageArray:
+    - PageTitle: G02
+      PageImage: {fileID: 21300000, guid: 886fee2eb8c76c14e9456b501c55f42a, type: 3}
+  - Name: "10 - \u03A0\u03B1\u03C1\u03AC\u03B4\u03B5\u03B9\u03B3\u03BC\u03B1 G02"
+    Stage: 2
+    IsExample: 1
+    TutorialPageArray:
+    - PageTitle: "\u03A0\u03B1\u03C1\u03AC\u03B4\u03B5\u03B9\u03B3\u03BC\u03B1 G02"
+      PageImage: {fileID: 21300000, guid: 85eab298830b4ff4b9031369c6477261, type: 3}
+  - Name: 11 - G03
+    Stage: 3
+    IsExample: 0
+    TutorialPageArray:
+    - PageTitle: G03
+      PageImage: {fileID: 21300000, guid: 76005d8e35ebbee439a14cefd381b5e7, type: 3}
+  - Name: "12 - \u03A0\u03B1\u03C1\u03AC\u03B4\u03B5\u03B9\u03B3\u03BC\u03B1 G03"
+    Stage: 3
+    IsExample: 1
+    TutorialPageArray:
+    - PageTitle: "\u03A0\u03B1\u03C1\u03AC\u03B4\u03B5\u03B9\u03B3\u03BC\u03B1 G03"
+      PageImage: {fileID: 21300000, guid: 7278bad252d2482449d11525cc3d84b1, type: 3}
+  - Name: "13 - \u0391\u03BD\u03C4\u03B9\u03C3\u03C4\u03AC\u03B8\u03BC\u03B9\u03C3\u03B7"
+    Stage: 4
+    IsExample: 0
+    TutorialPageArray:
+    - PageTitle: G41
+      PageImage: {fileID: 21300000, guid: 5f8cca1aa2e63ad4c871610edcb90af4, type: 3}
+    - PageTitle: G42
+      PageImage: {fileID: 21300000, guid: 4febab91400fa754ba37068bec2135de, type: 3}
+    - PageTitle: G40
+      PageImage: {fileID: 21300000, guid: f4e37d9ad8567c44d8e81a8e53c81220, type: 3}
+  - Name: "14 - \u03A0\u03B1\u03C1\u03AC\u03B4\u03B5\u03B9\u03B3\u03BC\u03B1 \u0391\u03BD\u03C4\u03B9\u03C3\u03C4\u03AC\u03B8\u03BC\u03B9\u03C3\u03B7\u03C2"
+    Stage: 4
+    IsExample: 1
+    TutorialPageArray:
+    - PageTitle: "\u03A0\u03B1\u03C1\u03AC\u03B4\u03B5\u03B9\u03B3\u03BC\u03B1 \u0391\u03BD\u03C4\u03B9\u03C3\u03C4\u03AC\u03B8\u03BC\u03B9\u03C3\u03B7\u03C2"
+      PageImage: {fileID: 21300000, guid: a94c3b2f04672bf41b5c157748a47daa, type: 3}

@@ -1,0 +1,23 @@
+MISSION PROGRESS
+=============================
+"MissionAccepted" : Called when the player accepts a new mission from the mission board
+"CodeChecked" : Called after the player has pressed the Check code button and the code is correct.
+"ExecutionStarting" : Called when the Execute code button is pressed AND the execution conditions have been met.
+"ExecutionFinishing" : Callled after the execute button is pressed after a delay and after the mission progress has been recorded (tools lose durability, materials are reduced and the completed quantity is increased).
+"NewMissionsGenerated" : Called when a mission is complete AND after new missions are generated.
+
+
+"MachineCutFinished" This called after the succesfull finish from MachineInfo_View
+"MaterialLoaded" This called after the succesfull loading on the machine
+"ToolLoaded" This called after the succesfull loading on the machine
+
+
+//ShowTutorialEvents, this events are invoke when the buttons f1,f2,f3,f4 are pressed. listeners are on FirstTimeTutorials
+"GCodeTutorial"
+"MaterialShopTutorial"
+"ToolShopTutorial"
+"MachineLoadTutorial"
+
+
+OPEN/CLOSE UIs
+=============================

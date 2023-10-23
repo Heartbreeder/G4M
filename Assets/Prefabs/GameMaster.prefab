@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8097729184363618633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8097729184363618626}
+  - component: {fileID: 8097729184363618628}
+  - component: {fileID: 8097729184363618629}
+  - component: {fileID: 8097729184363618630}
+  - component: {fileID: 1605806718753580729}
+  - component: {fileID: 6155843289781670386}
+  - component: {fileID: 3806562474347896975}
+  - component: {fileID: 4077852389595447493}
+  - component: {fileID: 2066935580807978594}
+  - component: {fileID: 1201982372}
+  - component: {fileID: 727351920305019711}
+  - component: {fileID: 158700205}
+  - component: {fileID: 5904900843370819735}
+  - component: {fileID: 4713897209121633221}
+  - component: {fileID: 8078248121378709780}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8097729184363618626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 516.33655, y: 66.37478, z: -1541.7147}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8097729184363618628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbbe213147c47084291e534de3fc18bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LastPlayerProfile: 
+  MusicVolume: 0
+  SFXVolume: 0
+  ResolutionIndex: 0
+  QualityIndex: 0
+  FullscreenToggle: 0
+--- !u!114 &8097729184363618629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c48d332481e1844e9393865a0b4d07d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialsSet: {fileID: 11400000, guid: 40ae614035be6db43b8a3319a9675208, type: 2}
+  toolSet: {fileID: 11400000, guid: d7b1013f64b126745999e1030d761c93, type: 2}
+  millingMissionSet: {fileID: 11400000, guid: e4cf73808f3e9a5469a2d0fb8adc59f7, type: 2}
+  turningMissionSet: {fileID: 11400000, guid: e4cf73808f3e9a5469a2d0fb8adc59f7, type: 2}
+  millingTutorialSet: {fileID: 11400000, guid: be3cfd093459c0642ba5fc1b48be26f8, type: 2}
+  turningTutorialSet: {fileID: 11400000, guid: be3cfd093459c0642ba5fc1b48be26f8, type: 2}
+  PlayerAvatarSet: {fileID: 11400000, guid: ce60bebbd397acc42a9d973647bc08cc, type: 2}
+  MachineSet: {fileID: 11400000, guid: e4ba400ea1060e841b41a0fae2668494, type: 2}
+--- !u!114 &8097729184363618630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e2e06f9660c594b9ac35d5e247042f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProfileName: 
+  AvatarIndex: 0
+  MillingEnabled: 0
+  TurningEnabled: 0
+  Exp: 0
+  Money: 0
+  MillingStage: 0
+  TurningStage: 0
+  MillingTutorialsRead: 
+  TurningTutorialsRead: 
+  FirstTimeTutorialState: 0
+  InventoryTools:
+  - UniqueCode: 0
+    ID: 
+    ToolDimensions: 
+    ToolDurability: 0
+    MachineID: 0
+    Template:
+      ID: 
+      ToolName: 
+      Category: 
+      Dimensions: []
+      Decription: 
+      Price: 0
+      ItemImage: {fileID: 0}
+      Durability: 0
+      RepairCost: 0
+  InventoryMaterials: []
+  MachinesList: []
+  ActiveMission:
+    IsMilling: 0
+    MissionIndex: 0
+    IsMissionStageUp: 0
+    RewardGoldPerItem: 0
+    RewardExpPerMission: 0
+    RequestedQuantity: 0
+    RequestedMaterialID: 
+    RequestedMaterialDimensions: 
+    AdditionalDescription: 
+    WrittenCode: 
+    CompletedQuantity: 0
+    IsCodeChecked: 0
+    IsBeingExecuted: 0
+    ExecutionCarveQuantity: 0
+    Delay: 0
+    DelayTimePassed: 0
+    ShownDelay: 0
+    ExecutingMachine: 0
+    Template:
+      Name: 
+      ID: 0
+      Stage: 0
+      isThisMissionTutorialForTheStage: 0
+      Description: 
+      MissionDetails: 
+      RequestedToolList: []
+      FinishedModel: {fileID: 0}
+      CarvingTool: {fileID: 0}
+      FinalProduct: {fileID: 0}
+      CarvingPathBlueprint: {fileID: 0}
+      MechanicalBlueprint: {fileID: 0}
+      TopCode: 
+      MiddleCode: 
+      BottomCode: 
+      TopCodeDescription: 
+      MiddleCodeDescription: 
+      BottomCodeDescription: 
+      CarvingVideo: {fileID: 0}
+      CarvingSnapshots: []
+  NextMissionList: []
+  CorrectMissionCombo: 0
+  TimesCompletedPerMissionMilling: 
+  TimesCompletedPerMissionTurning: 
+  AvatarSprite: {fileID: 0}
+  CursorLocked: 0
+  LockLevel: 0
+  UniqueCodeGenerator: 0
+  ActiveMachine: 0
+  ProfileNames: []
+  ChatboxMessages: []
+  playerTarget: {fileID: 0}
+  PlayerLog: 
+  TimeMemory: 0
+--- !u!114 &1605806718753580729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c408b55772f65d4c87de565f4bf92a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6155843289781670386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95a068b5bfb23448a42ef6e1b859666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PopupName: SimplePopupYesNo
+  Title: Example Title
+  Message: This is an example message for this UIPopup
+  LabelButtonOne: Yes
+  LabelButtonTwo: No
+  HideOnButtonOne: 1
+  HideOnButtonTwo: 1
+  EventOnYes: 
+  EventOnNo: 
+--- !u!114 &3806562474347896975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5ad1e086872d74397ec95047a6429b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PopupName: Popup1
+  Title: Example Title
+  Message: This is an example message for this UIPopup
+  Icon: {fileID: 0}
+  showinparent: 0
+--- !u!114 &4077852389595447493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98fbee3e7fa791a4fb3a429f9afa20b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PopupName: PopupVideo
+  Title: This is an example title of the video
+  Message: This is an example message for this UIPopup
+  Clip: {fileID: 32900000, guid: e79995a9ede4635439e71796d3cbac8d, type: 3}
+  EventOnClose: test
+--- !u!114 &2066935580807978594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479e6e1c18d159d43a292b2f8dec8848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1201982372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f2ef9e42ac67d1409ca1e7b252ea2a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &727351920305019711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a478b4ad32c1144c836fccaddc25023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pop: {fileID: 158700205}
+  ReplaceTextWithColors: 1
+--- !u!114 &158700205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d46c0955946c7914d88b131bc02a37d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PopupName: ChatBoxPopUp
+  PopupNameSimpleBACK: PopapBack
+  PopupNameSimpleFULL: PopapFULL
+  _MessageType:
+  - Category: 0 - General/Popup
+    Icon: {fileID: 21300000, guid: 45b4350612702384d910837394850383, type: 3}
+  - Category: 1 - General/Popup/Chat
+    Icon: {fileID: 21300000, guid: 1c36af93ca4600c4a9e9ec6ea0dc6c72, type: 3}
+  - Category: 2 - Whatever we want
+    Icon: {fileID: 21300000, guid: 1c36af93ca4600c4a9e9ec6ea0dc6c72, type: 3}
+--- !u!114 &5904900843370819735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab82a39bb036fd4e8761d277d1dce86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4713897209121633221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96fb45073bf29074a96d35ae9cc92caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8078248121378709780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097729184363618633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e44c102e706f4da4e89a35bd37d36053, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetFerameRate: 60

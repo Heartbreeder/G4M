@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889794c411054f7ca8e6fbdc6728c846, type: 3}
+  m_Name: _UIViewDatabase
+  m_EditorClassIdentifier: 
+  DatabaseType: 2
+  CategoryNames:
+  - Custom
+  - AlwaysOpen
+  - Example
+  - General
+  - MainViews
+  - TemporaryViews
+  Categories:
+  - {fileID: 11400000, guid: 89dde8766a0e46c409e67cdb4491d0e5, type: 2}
+  - {fileID: 11400000, guid: b01e98f4801f7124ba39e1dac4debf90, type: 2}
+  - {fileID: 11400000, guid: bb3f00510d4b3af44adb721755e1849c, type: 2}
+  - {fileID: 11400000, guid: 49241aa4ae64d5c40b78b9417fe44905, type: 2}
+  - {fileID: 11400000, guid: 869801b36f164a0438fbc07132fdeb3c, type: 2}

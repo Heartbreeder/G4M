@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d8e74935d5ae17845ae89d42132e99bb
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Aka-Acid-SciFly
+  fontNames:
+  - Aka-Acid-SciFly
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b073c926084bdf243bd6f80f6eb8968d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

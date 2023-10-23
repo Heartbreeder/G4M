@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c04155d43740f46a3223a7eb386e0c, type: 3}
+  m_Name: _UIPopupDatabase
+  m_EditorClassIdentifier: 
+  PopupNames:
+  - AchievementPopup
+  - AllMessages
+  - AllYourBase
+  - ChatBoxPopUp
+  - CreateProfilePopup
+  - PopapBack
+  - PopapFULL
+  - Popup1
+  - Popup2
+  - Popup3
+  - PopUpOKSimpleV2
+  - PopupPhoto
+  - PopupVideo
+  - ProfileViewPopUP
+  - SimplePopupYesNo
+  Popups:
+  - {fileID: 11400000, guid: 3729bce727b92ce43a76a19ee485545b, type: 2}
+  - {fileID: 11400000, guid: b0db2895cba98b24abf3a24d2ae85dbd, type: 2}
+  - {fileID: 11400000, guid: 09b9c5f1cfdbaca4f83d999c802a54ed, type: 2}
+  - {fileID: 11400000, guid: 2fdf4b0f2ef829d49a6ea55b9a4cd906, type: 2}
+  - {fileID: 11400000, guid: 3f9386934e87cbc4ebdd9b1555ec9290, type: 2}
+  - {fileID: 11400000, guid: f38f4b3b07f628f4c96f4deff3fb8b2b, type: 2}
+  - {fileID: 11400000, guid: 78f11f99a30f1384fa43e57524bdc6fc, type: 2}
+  - {fileID: 11400000, guid: ccc96a3d38744bf4ca347433859f5089, type: 2}
+  - {fileID: 11400000, guid: b484f5bd08aeaf14598bcc73d9172d5f, type: 2}
+  - {fileID: 11400000, guid: 6ddd09fe508023541baf44c4ead21ad9, type: 2}
+  - {fileID: 11400000, guid: 92e99dc7f3c48974fa5dc9c5822b9327, type: 2}
+  - {fileID: 11400000, guid: 5c6037775e1a576459e7fbdccf28d231, type: 2}
+  - {fileID: 11400000, guid: 7bc440565fd658942afe08db3e112caf, type: 2}
+  - {fileID: 11400000, guid: ffb7eebac0aca4646afd204ae6598d79, type: 2}
+  - {fileID: 11400000, guid: 04da78a96a19b8c488d04cd597b1a2ff, type: 2}
